@@ -1,6 +1,6 @@
 {
   "name": "supermuch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A libary for basic arithmetic on very large numbers",
   "main": "index.js",
   "scripts": {

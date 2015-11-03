@@ -10,15 +10,31 @@ Installation
 Usage
 -----
 
-Provide two string representations of integers and a radix. The radix should be between `1` and `36` (inclusive).
+Provide two string representations of integers and an optional radix. The radix should be between `1` and `36` (inclusive).
 
     var supermuch = require('supermuch');
 
-    console.log(supermuch.add('1000', '999'));
+    console.log(supermuch.add('1', '1'));
+    console.log(supermuch.add('1', '-1'));
+    console.log(supermuch.add('99', '-100'));
+    console.log('----');
+    console.log(supermuch.subtract('1000', '1'));
+    console.log(supermuch.subtract('1', '1000'));
+    console.log('----');
+    console.log(supermuch.add('1', '1', 2));
+    console.log(supermuch.add('zzz', '1', 36));
 
 Output:
 
-    '1999'
+    '2'
+    '0'
+    '-1'
+    '----'
+    '999'
+    '-999'
+    '----'
+    '10'
+    '1000'
 
 Tests
 -----
