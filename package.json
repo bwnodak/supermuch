@@ -4,7 +4,7 @@
   "description": "A libary for basic arithmetic on very large numbers",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,12 @@
     "arithmetic"
   ],
   "author": "Brian Nelson <yonbeastie@gmail.com> (http://yonbeastie.com)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yonbeastie/supermuch/issues"
   },
-  "homepage": "https://github.com/yonbeastie/supermuch#readme"
+  "homepage": "https://github.com/yonbeastie/supermuch#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
 }
