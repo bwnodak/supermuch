@@ -12,7 +12,7 @@ describe('Public functions', function() {
 
       assert.equal('10', supermuch.add('1', '1', 2));
       assert.equal('100', supermuch.add('99', '1'));
-      //assert.equal('1000', supermuch.add('zzz', '1'));
+      assert.equal('1000', supermuch.add('zzz', '1'));
       assert.equal('1zzy', supermuch.add('zzz', 'zzz'));
     });
   });
