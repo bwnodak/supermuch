@@ -1,0 +1,24 @@
+{
+  "name": "supermuch",
+  "version": "1.0.0",
+  "description": "A libary for basic arithmetic on very large numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonbeastie/supermuch.git"
+  },
+  "keywords": [
+    "integers",
+    "math",
+    "arithmetic"
+  ],
+  "author": "Brian Nelson <yonbeastie@gmail.com> (http://yonbeastie.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonbeastie/supermuch/issues"
+  },
+  "homepage": "https://github.com/yonbeastie/supermuch#readme"
+}
